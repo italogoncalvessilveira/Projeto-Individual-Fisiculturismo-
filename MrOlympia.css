@@ -1,12 +1,16 @@
+/** Começo Home **/
+
+/** header **/
+
 .logo{
-    height: 9%;
-    width: 9%;
+    height: 8%;
+    width: 8%;
 }
 
 .header{
-    background-color: #232323;
+    background-image: linear-gradient(to bottom left,	#1C1C1C,#DC143C,#1C1C1C ,#DC143C);
     width: 100%;
-    height: 75px;
+    height: 88px;
    border-bottom:solid whitesmoke 3px;
 }
 
@@ -25,8 +29,7 @@
    text-transform: uppercase;
    padding: 6px;
    border-radius: 5px;
-   background-color: #ED2024 ;
-
+   background-image: linear-gradient(to  bottom right, 	#380D0D,#DC143C, #380D0D,#DC143C);
 }
 
 .header ul li a{ 
@@ -43,42 +46,116 @@
     font-weight: bold;
 }
 
-
-
-#Buscar{
-    background-color:#2F4F4F;
-    border:solid 1px;
-    border-radius:15px;
-    width:75px;
-    float: right;
-    display: flex;
-    padding-right: 200px;
-  }
-  
-  #txtBuscar{
-    float:left;
-    background-color:transparent;
-    padding-left:5px;
-    font-style:italic;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width: 75px;
-    display: flex;
-  }
-
-#btnbuscar{
-    width: 30px;
-    border-radius: 15px;
-    padding-left: 163px ;
+.secondheader{
+    width: 100%;
+    
 }
 
+
+/** Introdução **/
+
 .historia h1{
-    padding-left: 540px;
-    margin-top: 125px;
+    padding-left: 29%;
+    background-color: black;
+    color: white;
 }  
 
-.historia img {
-    padding-left: 548px;
+.historia img{
+    padding-left: 30%;
+    width: 39%;
+    
+}
+
+#titulohistoria2{
+    padding-left: 42%;
+    font-size: 25px;
+}
+
+.historia2{
+    padding-left: 28%;
+    margin: 1%;
+    font-size: 20px;
+}
+
+#larryhome{
     width: 40%;
+    height: 17%;
+    padding-left: 29%;
+}
+
+#larrynome{
+    padding-left: 47%;
+}
+
+#conclusao{
+    padding-left: 28%;
+    margin: 1%;
+    font-size: 20px;
+}
+
+#conclusao a{
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+
+}
+
+#vermelho{
+    height: 3px;
+    width: 100%;
+    background-color: #ED2024 ;
+}
+
+/** footer**/
+
+.footer{
+    background-image: linear-gradient(to bottom left,	#1C1C1C,#DC143C,#1C1C1C ,#DC143C);
+    width: 100%;
+    height: 218px;
+   border-bottom:solid whitesmoke 3px;
+}
+
+.footer b{
+    color: white;
+    position: relative;
+    z-index: 4;
+}
+
+/** Fim Home **/
+
+
+/** Começo  Biografias **/
+
+#biografiaOpens {
+   padding-left: 28%;
+    font-size: 30px;
+    background-image: linear-gradient(black, grey, black, grey);
+    color: white;
+    font-style: italic;
+    height: 40px;
+}
+
+.alinhamento {
+    font-size: 20px;
+    padding-left: 28%;
+    background-color: black;
+    color: whitesmoke;
+}    
+
+.imgAlinhada {
+    height: 20%;
+    width: 30%;
+    padding-left: 18%;
+    border-radius: 30px;
+}
+
+.nomeFisuculturista {
+     color: LightBlue;
+    font-style:oblique;
+}
+
+.Categorias {
+    list-style: none;
+  
+    display: flex;
 }
