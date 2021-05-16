@@ -1,6 +1,10 @@
 /** Começo Home **/
 
 /** header **/
+body {
+    background-color: black;
+    
+}
 
 .logo{
     height: 8%;
@@ -55,40 +59,41 @@
 /** Introdução **/
 
 .historia h1{
-    padding-left: 29%;
+    
     background-color: black;
     color: white;
+    padding-left: 28%;
 }  
 
 .historia img{
-    padding-left: 30%;
-    width: 39%;
-    
+    padding-left: 28%;
+    width: 39%;       
 }
 
 #titulohistoria2{
-    padding-left: 42%;
+    padding-left: 40%;
     font-size: 25px;
 }
 
 .historia2{
-    padding-left: 28%;
+   padding-left: 20%;
     margin: 1%;
     font-size: 20px;
 }
 
 #larryhome{
+    padding-left: 27%;
     width: 40%;
     height: 17%;
-    padding-left: 29%;
+    
 }
 
 #larrynome{
-    padding-left: 47%;
+    padding-left: 46%;
 }
 
 #conclusao{
-    padding-left: 28%;
+    padding-left: 20%;
     margin: 1%;
     font-size: 20px;
 }
@@ -117,8 +122,12 @@
 
 .footer b{
     color: white;
-    position: relative;
-    z-index: 4;
+}
+
+.footer h3{
+    color: white;
+    padding-left: 41%;
+    
 }
 
 /** Fim Home **/
