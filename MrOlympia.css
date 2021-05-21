@@ -165,6 +165,84 @@ body {
 
 .Categorias {
     list-style: none;
-  
     display: flex;
 }
+
+/** fim biografias**/
+
+
+/** Login **/
+
+
+
+.Login {
+    background-image: url("./Campeões IMG/Arnoldlogin.jpg");
+    width: 37%;
+    height: 390px;
+    margin-left: 32%;
+    margin-top: 12%;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+#idsenha {
+    width: 50%;
+}
+
+#idnome {
+    width: 50%;
+}
+
+.styleNomeSenha {
+    color: grey11;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#entrar {
+    background-image: linear-gradient(to bottom right, black, grey,black );
+    color: white;
+    margin-left: 23%;
+    height: 10%;
+    width: 10%;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+
+#cadastrar {
+    background-image: linear-gradient(to bottom right, black, grey,black );
+    color: white;
+    margin-left: 23%;
+    height: 15%;
+    width: 15%;
+    border-radius: 10px;
+    cursor: pointer;
+} 
+
+
+
+/** fim login **/
+
+/** Começo Curiosidades **/
+
+.curiosidades{
+  color: aliceblue;
+  font-size: 20px;
+  text-decoration: none;
+  list-style: none;
+}
+
+.curiosidades i {
+    color: red;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+
+
+
+/** fim Curiosidades **/

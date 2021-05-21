@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MrOlympia.css">
+    <link rel="stylesheet" href="styleGraficos.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="header">
+        <div class="container">
+            <img class="logo" src="./Campeões IMG/logo3.jpg" alt="MrOlympia">
+            
+            <ul>
+                <li><a href="Curiosidades.html"><span class="Corheader">Voltar</span></a></li>
+                <li><a href="MrOlympia.html"><span class="Corheader">Home</span></a> </li>
+                <li><a href="Open.html"><span class="Corheader">Biografias</span></a> </li>
+                <li><a href="login.html"><span class="Corheader">Login</span></a></li>
+            </ul>
+       
+        </div>
+    </div>
+
+
+ <div class="grafico">
+    <canvas id="myChartLine"></canvas>
+  </div>
+    
+  <script>
+
+   const labels  = ["Larry","Sergio","Arnold","Columbu","Zane","Dickerson", "Bannout", "Lee Haney", "Dorian", "Coleman", "Jay Cutler", "Dexter", "Phill Heath", "Roden", "Brandon", "Big Ramy"];
+   
+    const data = {
+      labels: labels,
+      datasets: [
+          {
+            label: "Nome / Titulos",
+            backgroundColor: "rgb(128,0,0)",
+            borderColor: "rgb(255,0,0)",
+            data: [2, 3, 7, 2, 3, 1, 1, 7, 6, 8, 4, 1, 7, 1, 1, 1, 1]
+          },
+        ],
+      }
+      
+  
+        const config = {
+      type: "line",
+      data,
+      Options: {maintainAspectRatio: false,},
+     };
+  
+    var myChartLine = new Chart(document.getElementById('myChartLine'), config);
+   
+   </script>
+  
+
+</body>
+</html>
+    
