@@ -164,7 +164,16 @@ body {
     background-color: black;
     color: whitesmoke;
     text-decoration: none;
-}    
+}   
+
+.alinhamento span a {
+    text-decoration: none;
+    color:crimson;
+}
+
+.alinhamento span a:hover {
+    color: brown;
+}
 
 .imgAlinhada {
     height: 25%;
@@ -176,7 +185,7 @@ body {
 
 
 .nomeFisuculturista {
-     color: LightBlue;
+    color: LightBlue;
     font-style:oblique;
 }
 
