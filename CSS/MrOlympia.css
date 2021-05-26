@@ -239,6 +239,11 @@ body {
     
 }
 
+#in_Vetor {
+    width: 50%;
+    margin-left: 23%;
+}
+
 .styleNomeSenha {
     color: grey11;
     font-size: 20px;
@@ -255,7 +260,20 @@ body {
     cursor: pointer;
 } 
 
+#cadastrar3 {
+    background-image: linear-gradient(to bottom right, red, darkred,red, darkred, red);
+    color: white;
+    margin-left: 34%;
+    height: 10%;
+    width: 15%;
+    border-radius: 10px;
+    cursor: pointer;
+} 
 
+#cadastrar3:hover {
+    height: 10.3%;
+    width: 15.3%;
+}
 
 #cadastrar2 {
     background-image: linear-gradient(to bottom right, red, darkred,red, darkred, red);

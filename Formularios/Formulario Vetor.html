@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nos Ajude :)</title>
+    <link rel="stylesheet" href="../CSS/MrOlympia.css">
+</head>
+<body>
+    
+    <div class="Cadastro"> 
+
+        <h1>Digite seu TOP 3 Bodybuilders</h1>
+       
+        <input id="in_Vetor" placeholder="Digite seu 3 Bodybuilders Preferidos para nos ajudar"><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <button onclick="enviar()" id="cadastrar2">Enviar</button>
+        
+
+        <a href="../Curiosidades/Curiosidades.html"><button id="cadastrar3">Pular</button></a> 
+   
+   </div>
+   
+   <div id="div_lista_bodybuilders"></div>
+    
+    
+</body>
+</html>
+
+<script>
+
+var lista_bodybuilders = [];
+    function enviar() {
+        lista_bodybuilders.push(in_Vetor.value);
+
+       for(var contador = 0; contador < lista_bodybuilders.length; contador++)
+        div_lista_bodybuilders.innerHTML = "";
+        
+           
+
+
+</script>
