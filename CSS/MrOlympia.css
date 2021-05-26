@@ -60,6 +60,12 @@ body {
     
 }
 
+.header img {
+    height: 2%;
+    width: 11%;
+}
+
+
 
 /** Introdução **/
 
@@ -141,8 +147,25 @@ body {
 }
 
 .footer a:hover {
-   color: brown;
+   color: black;
 }
+
+.footer h4 a {
+    margin-right: 10%;
+    text-decoration: underline;
+}
+
+.footer h4 a:hover {
+    text-decoration: none;
+}
+
+.footer h4 {
+    margin-right: 15%;
+    float: right;
+}
+
+
+
 
 /** Fim Home **/
 
@@ -150,7 +173,7 @@ body {
 /** Começo  Biografias **/
 
 #biografiaOpens {
-   padding-left: 28%;
+   padding-left: 23%;
     font-size: 30px;
     background-image: linear-gradient(black, grey, black, grey);
     color: white;
@@ -160,7 +183,7 @@ body {
 
 .alinhamento {
     font-size: 20px;
-    padding-left: 28%;
+    padding-left: 25%;
     background-color: black;
     color: whitesmoke;
     text-decoration: none;
@@ -312,9 +335,9 @@ body {
 
 .Cadastro {
     background-image: url("../Campeões IMG/logocadastro.jpg");
-    width: 37%;
+    width: 40%;
     height: 390px;
-    margin-left: 32%;
+    margin-left: 30%;
     margin-top: 12%;
     background-size: cover;
     border-radius: 10px;
@@ -324,7 +347,7 @@ body {
 
 .Cadastro h1 {
     color: whitesmoke;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 
 .Cadastro label {
@@ -351,6 +374,14 @@ body {
     font-size: 20px;
     text-decoration: none;
     list-style: none;
+}
+
+.curiosidades h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 
